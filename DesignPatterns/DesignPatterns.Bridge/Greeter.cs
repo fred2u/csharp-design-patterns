@@ -14,7 +14,7 @@ namespace DesignPatterns.Bridge
 
         public void SayHello()
         {
-            Console.WriteLine($"Someone says hello using {_device.Description}.");
+            _device.Greet("Fabian");
         }
     }
 }

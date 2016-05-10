@@ -3,5 +3,7 @@
     internal interface IDevice
     {
         string Description { get; }
+
+        void Greet(string name);
     }
 }
