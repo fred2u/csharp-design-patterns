@@ -24,7 +24,7 @@ namespace DesignPatterns.Composite
         public void Display(int depth = 0)
         {
             var identation = new string(' ', depth * 4);
-            Console.WriteLine($"{identation} {Name} ({_components.Count})");
+            Console.WriteLine($"{identation} {Name}");
 
             foreach (var component in _components)
             {
