@@ -5,7 +5,7 @@ using System.IO;
 
 namespace DesignPatterns.Flyweight
 {
-    internal class PictureLibrary : IThumbnailFactory
+    internal class PictureLibrary : IThumbnailCreator
     {
         private readonly Dictionary<string, IFlyweight> _cache = new Dictionary<string, IFlyweight>();
 

@@ -1,6 +1,6 @@
 namespace DesignPatterns.Flyweight
 {
-    internal interface IThumbnailFactory
+    internal interface IThumbnailCreator
     {
         Thumbnail GetThumbnail(string fileName);
     }

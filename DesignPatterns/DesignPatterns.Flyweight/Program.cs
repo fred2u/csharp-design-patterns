@@ -14,7 +14,8 @@ namespace DesignPatterns.Flyweight
             Console.WriteLine($"Neptune thumbnail size is {neptune.Size} bytes.");
 
             // Does the thumbnail gets created again?
-            library.GetThumbnail("neptune.jpg");
+            var neptune2 = library.GetThumbnail("neptune.jpg");
+            Console.WriteLine($"Neptune thumbnail size is {neptune2.Size} bytes.");
 
             Console.WriteLine();
             Console.WriteLine("Press any key...");
