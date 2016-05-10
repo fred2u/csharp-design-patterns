@@ -6,6 +6,9 @@ namespace DesignPatterns.Facade
     {
         private static void Main()
         {
+            var amazon = new AmazonFacade();
+            amazon.BuyOneClick("978-0321127426");
+
             Console.WriteLine();
             Console.WriteLine("Press any key...");
             Console.Read();

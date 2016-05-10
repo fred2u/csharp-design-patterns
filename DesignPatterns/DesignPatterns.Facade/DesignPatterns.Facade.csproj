@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmazonAuthentication.cs" />
+    <Compile Include="AmazonDelivery.cs" />
+    <Compile Include="AmazonFacade.cs" />
+    <Compile Include="AmazonOrdering.cs" />
+    <Compile Include="AmazonStock.cs" />
+    <Compile Include="Fulfilment.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
