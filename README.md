@@ -1,1 +1,0 @@
-# csharp-design-patterns
