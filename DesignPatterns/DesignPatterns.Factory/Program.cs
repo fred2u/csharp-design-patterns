@@ -6,20 +6,20 @@ namespace DesignPatterns.Factory
     {
         private static void Main()
         {
-            var factory = new FruitCreator();
-            Console.WriteLine($"The best fruit for current season is {factory.CreateFruitForSeason()}.");
+            var fruit = FruitCreator.CreateFruitForSeason();
+            Console.WriteLine($"The best fruit for current season is {fruit}.");
 
-            var winterFactory = new FruitCreator(new DateTime(2016, 2, 1));
-            Console.WriteLine($"The best fruit for winter season is {winterFactory.CreateFruitForSeason()}.");
+            var winterFruit = FruitCreator.CreateFruitForSeason(new DateTime(2016, 2, 1));
+            Console.WriteLine($"The best fruit for winter season is {winterFruit}.");
 
-            var springFactory = new FruitCreator(new DateTime(2016, 5, 1));
-            Console.WriteLine($"The best fruit for spring season is {springFactory.CreateFruitForSeason()}.");
+            var springFruit = FruitCreator.CreateFruitForSeason(new DateTime(2016, 5, 1));
+            Console.WriteLine($"The best fruit for spring season is {springFruit}.");
 
-            var summerFactory = new FruitCreator(new DateTime(2016, 8, 1));
-            Console.WriteLine($"The best fruit for summer season is {summerFactory.CreateFruitForSeason()}.");
+            var summerFruit = FruitCreator.CreateFruitForSeason(new DateTime(2016, 8, 1));
+            Console.WriteLine($"The best fruit for summer season is {summerFruit}.");
 
-            var autumnFactory = new FruitCreator(new DateTime(2016, 11, 1));
-            Console.WriteLine($"The best fruit for autumn season is {autumnFactory.CreateFruitForSeason()}.");
+            var autumnFruit = FruitCreator.CreateFruitForSeason(new DateTime(2016, 11, 1));
+            Console.WriteLine($"The best fruit for autumn season is {autumnFruit}.");
 
             Console.WriteLine();
             Console.WriteLine("Press any key...");

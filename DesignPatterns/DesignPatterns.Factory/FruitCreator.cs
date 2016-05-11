@@ -2,33 +2,26 @@
 
 namespace DesignPatterns.Factory
 {
-    internal class FruitCreator
+    internal static class FruitCreator
     {
-        private readonly DateTime _moment;
-
-        public FruitCreator()
-            : this(DateTime.Now)
+        public static IFruit CreateFruitForSeason()
         {
+            return CreateFruitForSeason(DateTime.Now);
         }
 
-        internal FruitCreator(DateTime moment)
+        public static IFruit CreateFruitForSeason(DateTime moment)
         {
-            _moment = moment;
-        }
-
-        public IFruit CreateFruitForSeason()
-        {
-            if (_moment.Month <= 3)
+            if (moment.Month <= 3)
             {
                 return new Pineapple();
             }
 
-            if (_moment.Month <= 6)
+            if (moment.Month <= 6)
             {
                 return new Banana();
             }
 
-            if (_moment.Month <= 9)
+            if (moment.Month <= 9)
             {
                 return new Strawberry();
             }
