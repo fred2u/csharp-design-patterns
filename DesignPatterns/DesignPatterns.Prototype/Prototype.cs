@@ -5,7 +5,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 namespace DesignPatterns.Prototype
 {
     [Serializable]
-    internal class Prototype<T> : IPrototype<T>
+    internal abstract class Prototype<T> : IPrototype<T>
     {
         public T ShallowCopy()
         {
