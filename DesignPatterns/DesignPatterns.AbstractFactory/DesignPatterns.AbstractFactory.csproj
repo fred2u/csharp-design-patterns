@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apple.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="IBrand.cs" />
+    <Compile Include="IComputer.cs" />
+    <Compile Include="IDevice.cs" />
+    <Compile Include="IFactory.cs" />
+    <Compile Include="ISmartPhone.cs" />
+    <Compile Include="Computer.cs" />
+    <Compile Include="Microsoft.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartPhone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
