@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasketContext.cs" />
+    <Compile Include="HeavyState.cs" />
+    <Compile Include="IContext.cs" />
+    <Compile Include="IState.cs" />
+    <Compile Include="LightState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
