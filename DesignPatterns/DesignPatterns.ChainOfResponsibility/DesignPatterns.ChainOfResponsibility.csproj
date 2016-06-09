@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accountant.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="BranchManager.cs" />
+    <Compile Include="FinancialAnalyst.cs" />
+    <Compile Include="FrontDesk.cs" />
+    <Compile Include="IWithdraw.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
