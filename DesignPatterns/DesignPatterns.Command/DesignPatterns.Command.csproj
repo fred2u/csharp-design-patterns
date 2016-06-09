@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DominosPizza.cs" />
+    <Compile Include="GetPizza.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="IPizzaReceiver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
