@@ -6,7 +6,7 @@ namespace DesignPatterns.AbstractFactory
         where TBrand: IBrand
     {
         public TBrand Brand { get; }
-        public string Model { get; set; }
+        public string Model { get; }
 
         public Computer(TBrand brand, string model)
         {
